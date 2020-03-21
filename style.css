@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body{
+    font-family: "Ninuto Sans", sans-serif;
+    font-size: 2em;
+    background: whitesmoke;
+}
+
+img.resize{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: row;
+    list-style: none;
+    padding: 8px;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+.img resize{
+    width: 200px;
+    height: 200px;
+}
+
+#home{
+    background: url(./assets/portfolio-background.svg);
+    background-color: yellow;
+    color: black;
+    padding: 100px;
+}
+
+#home h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#home p{
+    margin: 20px;
+    text-align: center;
+}
+
+#home div{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+    width: 100%;
+    
+}
+
+#home div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20%;
+    border-color:white;
+}
+
+#section-container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+    list-style: none;
+    width: 100%;
+    cursor: none;
+    border-radius: 10px;
+}
+
+#section-container ul{
+    list-style: none;
+}
+
+#lang div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin:  20px;
+    width: 100%;
+}
+
+#footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
